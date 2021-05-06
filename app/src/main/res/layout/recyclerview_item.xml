@@ -1,0 +1,71 @@
+
+
+
+<androidx.cardview.widget.CardView
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:id="@+id/card_view"
+android:layout_width="match_parent"
+android:layout_height="135dp"
+card_view:cardCornerRadius="15dp"
+card_view:cardUseCompatPadding="true"
+card_view:cardBackgroundColor="#8453DD"
+    >
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="135dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-109dp"
+        android:src="@drawable/planet_img"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/material_on_primary_emphasis_high_type"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="70dp" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/size"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/material_on_primary_emphasis_medium"
+            android:layout_marginStart="70dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="70dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+
